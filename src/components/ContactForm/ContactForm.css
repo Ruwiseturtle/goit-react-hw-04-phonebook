@@ -1,0 +1,47 @@
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    width: 500px;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+.inputName{
+    display: block;
+    width: 50%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.inputTel{
+    display: block;
+    width: 50%;
+    height: 30px;
+    margin-bottom: 30px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.textLabel{
+    font-size: 25px;
+     font-weight: 400;
+     margin-bottom: 10px;
+}
+
+.btnAdContact{
+    width:150px;
+    height: 30px;
+    font-size: 20px;
+}

@@ -1,0 +1,39 @@
+.conteinerContactList{
+    width: 500px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactList{
+    padding: 0;
+    margin: 0;
+    min-width: 500px
+}
+
+.contactInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.contactName{
+    word-wrap: break-word;
+    max-width: 200px;    
+    min-width: 200px; 
+    padding-right: 60px;
+    /* background-color: yellow; */
+}
+
+.contactPhone{
+    word-wrap: break-word;
+    max-width: 200px;
+    min-width: 200px; 
+    /* background-color: red; */
+}
+
+.btnContact{
+    max-height: 20px;
+}
